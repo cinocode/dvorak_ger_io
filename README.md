@@ -3,7 +3,10 @@
 This is a keyboard layout based on my personal preferences that aims for efficient typing in English and German as well as granting fast access to programming brackets etc.
 
 ![Layout Image](https://raw.githubusercontent.com/cinocode/dvorak_ger_io/master/img/layout.jpg)
+
 Top Left: Default Key / Bottom Left: Shift / Top Right: RAlt / Bottom Right: RAlt + Shift
+
+Thanks to: [Keyboard Layout Editor](http://www.keyboard-layout-editor.com)
 
 - Dvorank German Type 2 based
 - {[]} right under RAlt + qwer
