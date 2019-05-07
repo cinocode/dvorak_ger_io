@@ -16,6 +16,7 @@ Thanks to: [Keyboard Layout Editor](http://www.keyboard-layout-editor.com)
 - caps lock is mapped to esc unless that has te be done on system level
 
 Supports
+- Kmap
 - Xmodmap
 - Xkb mostly finished - if anyone knows how to map RCtrl to RAlt please hit me up
 - Windows
@@ -23,6 +24,7 @@ Supports
 
 Install
 - Linux: move the Xmodmap file to ~/.Xmodmap / run 'xmodmap ~/.Xmodmap' on startup
+- Linux tty: use 'loadkeys rice/dvorak_ger_io.kmap'
 - Windows: use the setup .exe to install / select dvgio01 - dvorak_ger_iov01 in system settings
     - if desired use the gk64.ahk script with AutoHotkey to rebind esc, capslock, rctrl
 
