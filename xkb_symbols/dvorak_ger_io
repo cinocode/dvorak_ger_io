@@ -1,10 +1,9 @@
-// ole @cinocode dvorak
-// this needs to go into /usr/share/X11/xkb/symbols
-
 default
 xkb_symbols "basic" {
 
-    name[Group1]="German (Dvole)";
+    include "us"
+
+    name[Group1]="Dvorak Ger Io";
 
     key <TLDE> { [ asciicircum, degree ] };
 
@@ -18,51 +17,50 @@ xkb_symbols "basic" {
     key <AE08> { [ 8, parenleft, bracketleft, trademark ] };
     key <AE09> { [ 9, parenright, bracketright, plusminus ] };
     key <AE10> { [ 0, equal, braceright, degree ] };
-    key <AE11> { [ plus, asterisk, asciitilde, grave ] };
-    key <AE12> { [ dead_acute, dead_grave, less, greater ] };
+    key <AE11> { [ plus, asterisk ] };
+    key <AE12> { [ guillemotleft, guillemotright, grave, apostrophe ] };
 
-    key <AD01> { [ udiaeresis, Udiaeresis, braceleft ] };
+    key <AD01> { [ question, ssharp, braceleft ] };
     key <AD02> { [ comma, semicolon, bracketleft ] };
     key <AD03> { [ period, colon, bracketright ] };
     key <AD04> { [ p, P, braceright ] };
     key <AD05> { [ y, Y ] };
-    key <AD06> { [ f, F, function, femalesymbol ] };
+    key <AD06> { [ f, F, function ] };
     key <AD07> { [ g, G ] };
-    key <AD08> { [ c, C, copyright, Cacute ] };
+    key <AD08> { [ c, C, copyright ] };
     key <AD09> { [ t, T, trademark ] };
-    key <AD10> { [ z, Z, zabovedot, Zabovedot ] };
-    key <AD11> { [ question, ssharp ] };
-    key <AD12> { [ slash, backslash, dead_acute ] };
+    key <AD10> { [ z, Z, cent ] };
+    key <AD11> { [ minus, underscore ] };
+    key <AD12> { [ slash, backslash ] };
 
-    key <AC01> { [ a, A, less, at ] };
+    key <BKSL> { [ paragraph, periodcentered, questiondown] };
+
+    key <AC01> { [ a, A, less, aacute ] };
     key <AC02> { [ o, O, parenleft ] };
-    key <AC03> { [ e, E, parenright, EuroSign ] };
-    key <AC04> { [ i, I, greater, bar ] };
-    key <AC05> { [ u, U, bar, brokenbar ] };
+    key <AC03> { [ e, E, parenright, eacute ] };
+    key <AC04> { [ i, I, greater ] };
+    key <AC05> { [ u, U ] };
     key <AC06> { [ h, H, brokenbar ] };
-    key <AC07> { [ d, D ] };
+    key <AC07> { [ d, D, acute ] };
     key <AC08> { [ r, R, registered ] };
     key <AC09> { [ n, N, at ] };
     key <AC10> { [ s, S, EuroSign ] };
-    key <AC11> { [ l, L, lstroke, Lstroke ] };
+    key <AC11> { [ l, L, yen ] };
 
-    key <AB01> { [ odiaeresis, Odiaeresis ] };
-    key <AB02> { [ q, Q, at ] };
-    key <AB03> { [ j, J, EuroSign, cent ] };
-    key <AB04> { [ k, K, copyright ] };
+    key <AB01> { [ bar, asciitilde, adiaeresis, Adiaeresisodiaeresis ] };
+    key <AB02> { [ q, Q, odiaeresis, Odiaeresis ] };
+    key <AB03> { [ j, J, udiaeresis, Udiaeresis ] };
+    key <AB04> { [ k, K ] };
     key <AB05> { [ x, X ] };
     key <AB06> { [ b, B ] };
-    key <AB07> { [ m, M, mu, masculine ] };
+    key <AB07> { [ m, M, mu ] };
     key <AB08> { [ w, W ] };
     key <AB09> { [ v, V ] };
     key <AB10> { [ numbersign, apostrophe, grave ] };
 
-    key <BKSL> { [ minus, underscore, hyphen, diaeresis] };
-
-    key <LSGT> { [ adiaeresis, Adiaeresis, bar ] };
+    key <LSGT> { [ less, greater ] };
 
     key <CAPS> { [ Escape ] };
 
     include "level3(ralt_switch)"
-    include "group(win_switch)"
 };
