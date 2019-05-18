@@ -1,8 +1,6 @@
 default
 xkb_symbols "basic" {
 
-    include "us"
-
     name[Group1]="Dvorak Ger Io";
 
     key <TLDE> { [ asciicircum, degree ] };
@@ -47,7 +45,7 @@ xkb_symbols "basic" {
     key <AC10> { [ s, S, EuroSign ] };
     key <AC11> { [ l, L, yen ] };
 
-    key <AB01> { [ bar, asciitilde, adiaeresis, Adiaeresisodiaeresis ] };
+    key <AB01> { [ bar, asciitilde, adiaeresis, Adiaeresis ] };
     key <AB02> { [ q, Q, odiaeresis, Odiaeresis ] };
     key <AB03> { [ j, J, udiaeresis, Udiaeresis ] };
     key <AB04> { [ k, K ] };
@@ -61,6 +59,4 @@ xkb_symbols "basic" {
     key <LSGT> { [ less, greater ] };
 
     key <CAPS> { [ Escape ] };
-
-    include "level3(ralt_switch)"
 };

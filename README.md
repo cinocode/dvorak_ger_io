@@ -18,12 +18,14 @@ Thanks to: [Keyboard Layout Editor](http://www.keyboard-layout-editor.com)
 Supports
 - Kmap
 - Xmodmap
-- Xkb mostly finished - if anyone knows how to map RCtrl to RAlt please hit me up
+- Xkb
 - Windows
 - Mac OS in the works
 
 Install
-- Linux: move the Xmodmap file to ~/.Xmodmap / run 'xmodmap ~/.Xmodmap' on startup
+- Linux xkb: use the install_xkb.sh script to copy the symbols file over
+ -> call 'setxkbmap dvorak_ger_io' to set up the layout and configure it as default in xorg/sway/etc
+ -> call 'setxkbmap -option lv3:switch -layout dvorak_ger_io' for control as modifier
 - Linux tty: use 'loadkeys rice/dvorak_ger_io.kmap'
 - Windows: use the setup .exe to install / select dvgio01 - dvorak_ger_iov01 in system settings
     - if desired use the gk64.ahk script with AutoHotkey to rebind esc, capslock, rctrl
