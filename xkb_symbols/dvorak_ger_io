@@ -3,6 +3,7 @@ xkb_symbols "basic" {
 
     name[Group1]="Dvorak Ger Io";
 
+    key <ESC> { [ asciicircum, degree ] };
     key <TLDE> { [ asciicircum, degree ] };
 
     key <AE01> { [ 1, exclam, onesuperior, exclamdown ] };
