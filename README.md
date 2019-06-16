@@ -24,9 +24,16 @@ Supports
 
 Install
 - Linux xkb: use the install_xkb.sh script to copy the symbols file over
- -> call 'setxkbmap dvorak_ger_io' to set up the layout and configure it as default in xorg/sway/etc
- -> call 'setxkbmap -option lv3:switch -layout dvorak_ger_io' for control as modifier
-- Linux tty: use 'loadkeys rice/dvorak_ger_io.kmap'
+  - call 'setxkbmap dvorak_ger_io' to set up the layout in xorg
+  - call 'setxkbmap -option lv3:ralt_switch -layout dvorak_ger_io' for right alt as level 3 modifier
+  - call 'setxkbmap -option lv3:switch -layout dvorak_ger_io' for right control as level 3 modifier
+  - example config for swaywm with ralt as default and a specific keyboard with rctrl
+```
+ input * xkb_layout dvorak_ger_io
+ input * xkb_options lv3:ralt_switch
+ input "7847:2311:SEMITEK_USB-HID_Gaming_Keyboard" xkb_options lv3:switch
+```
+- Linux tty: use 'loadkeys kmap/dvorak_ger_io.kmap'
 - Windows: use the setup .exe to install / select dvgio01 - dvorak_ger_iov01 in system settings
     - if desired use the gk64.ahk script with AutoHotkey to rebind esc, capslock, rctrl
 
