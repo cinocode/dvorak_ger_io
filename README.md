@@ -20,7 +20,7 @@ Supports
 - Xmodmap
 - Xkb
 - Windows
-- Mac OS in the works
+- Mac OS X
 
 Install
 - Linux xkb: use the install_xkb.sh script to copy the symbols file over
@@ -36,6 +36,7 @@ Install
 - Linux tty: use 'loadkeys kmap/dvorak_ger_io.kmap'
 - Windows: use the setup .exe to install / select dvgio01 - dvorak_ger_iov01 in system settings
     - if desired use the gk64.ahk script with AutoHotkey to rebind esc, capslock, rctrl
+- Mac download: mac/dvorak_ger_io.bundle.zip and open it
 
 Special branches exist to make this layout work with 60% layouts (these might be rebased and force pushed any time)
 - rctrl_ralt - maps the right ctrl to right alt
