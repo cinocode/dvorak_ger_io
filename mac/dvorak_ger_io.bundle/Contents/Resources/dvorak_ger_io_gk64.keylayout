@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-03-22 at 15:56 (GMT+1)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-04-11 at 09:27 (CEST)-->
 <keyboard group="126" id="-28425" name="dvorak_ger_io_gk64" maxout="1">
     <layouts>
         <layout first="0" last="4" mapSet="fb0" modifiers="84"/>
@@ -247,7 +247,7 @@
             <key code="24" output="»"/>
             <key code="25" output=")"/>
             <key code="26" output="~"/>
-            <key code="27" output="?"/>
+            <key code="27" output="*"/>
             <key code="28" output="("/>
             <key code="29" output="="/>
             <key code="30" output="\"/>

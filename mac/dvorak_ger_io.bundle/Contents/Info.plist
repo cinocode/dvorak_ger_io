@@ -3,28 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.dvorak_ger_io</string>
+	<string>com.apple.keyboardlayout.dvorak_ger_io</string>
 	<key>CFBundleName</key>
 	<string>dvorak_ger_io</string>
 	<key>CFBundleVersion</key>
-	<string></string>
-	<key>KLInfo_dvorak_ger_io</key>
-	<dict>
-		<key>TICapsLockLanguageSwitchCapable</key>
-		<false/>
-		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.dvorak_ger_io.dvorak_ger_io</string>
-		<key>TISIntendedLanguage</key>
-		<string>de</string>
-	</dict>
-	<key>KLInfo_dvorak_ger_io_gk64</key>
-	<dict>
-		<key>TICapsLockLanguageSwitchCapable</key>
-		<false/>
-		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.dvorak_ger_io.dvorak_ger_io_gk64</string>
-		<key>TISIntendedLanguage</key>
-		<string>de</string>
-	</dict>
+	<string>1.0</string>
 </dict>
 </plist>
