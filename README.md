@@ -36,7 +36,11 @@ Install
 - Linux tty: use 'loadkeys kmap/dvorak_ger_io.kmap'
 - Windows: use the setup .exe to install / select dvgio01 - dvorak_ger_iov01 in system settings
     - if desired use the gk64.ahk script with AutoHotkey to rebind esc, capslock, rctrl
-- Mac download: mac/dvorak_ger_io.bundle.zip and open it
+- Run: mac/install_layout.sh and open it
+   - For GK64 install karabiner-elements (brew cask install)
+     -> map caps_lock to escape
+     -> map right_control to right_option
+     -> map escape to grave_accent_and_tilde
 
 Special branches exist to make this layout work with 60% layouts (these might be rebased and force pushed any time)
 - rctrl_ralt - maps the right ctrl to right alt
