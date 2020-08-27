@@ -36,7 +36,9 @@ Install
 - Linux tty: use 'loadkeys kmap/dvorak_ger_io.kmap'
 - Windows: use the setup .exe to install / select dvgio01 - dvorak_ger_iov01 in system settings
     - if desired use the gk64.ahk script with AutoHotkey to rebind esc, capslock, rctrl
-- Run: mac/install_layout.sh and open it
+- Run: mac/install_layout.sh and you can find dvorak_ger_io in keyboard settings under 'Other'
+   - For EU keyboards install karabiner-elements (brew cask install)
+     -> map non_us_backslash to grave_accent_and_tilde
    - For GK64 install karabiner-elements (brew cask install)
      -> map caps_lock to escape
      -> map right_control to right_option
